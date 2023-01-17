@@ -10,8 +10,8 @@ export default function App() {
     method: "POST",
     headers: {
       "content-type": "application/json",
-      "X-RapidAPI-Key": "1c03575da1mshe5a1953660b645dp1f91d1jsn91c7d035905a",
-      "X-RapidAPI-Host": "you-chat-gpt.p.rapidapi.com",
+      "X-RapidAPI-Key": "keyname",
+      "X-RapidAPI-Host": "host",
     },
     body: JSON.stringify({ question: textInput, max_response_time: 30 }),
   };
